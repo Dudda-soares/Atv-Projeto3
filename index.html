@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvador - Bahia</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-2 border-text"><a href="#sobre-salvador"> melhor de Salvador - Bahia</a></h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex ">
+                    <!--{propriedade}-{breakpoint}-{Valor}-->
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-salvador" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre Salvador
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#video" class="nav-link">
+                            <i class="bi  bi-camera-reels me-1"></i>
+                            Videos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-journal-bookmark-fill me-1"></i>
+                            Atrações
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-person-video2 me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-salvador">
+            <div class="container pt-4">
+                <div class="carousel slide max-auto" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img src="./images/slides/slide1.jpg" class="rounded-4" alt="foto do espaço neterno">
+                        </div>
+                        <div class="carousel-item " data-bs-interval="3000">
+                            <img src="./images/slides/farol-itapoa.jpg" class="rounded-4" alt="duas taças de vinho">
+                        </div>
+                        <div class="carousel-item " data-bs-interval="3000">
+                            <img src="./images/slides/lacerda.jpg" class="rounded-4" alt="mesa com comida">
+                        </div>
+                        <div class="carousel-item " data-bs-interval="3000">
+                            <img src="./images/slides/wp1860173.jpg" class="rounded-4" alt="mesa com comida">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+            
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container ">
+                    <div class="row foto-salvador">
+                        <div class=" col-12 col-md-10 col-lg-6 ">
+                            <img src="./images/logo.jpg" class="d-block w-100 rounded img-fluid" alt="foto restaurante">
+                        </div>
+                        <div  class="col-md-10 mt-3 mt-md-0 col-lg-5">
+                            <h2 class="section-title  fs-3">Sobre <span class="text-colored">Salvador</span></h2>
+                            <p class="txt-sobre">Salvador, terra da alegria e da magia. Um dos destinos turísticos mais visitados do país por turistas de todos os cantos do mundo. Com atrações diversificadas, Salvador tem características singulares: sua arquitetura; a cultura herdada dos antepassados; os costumes que ainda hoje são preservados e a alegria incomparável dos baianos tornam Salvador uma cidade que encanta e apaixona seus visitantes.</p>
+                            <h3 class="section-title fs-3">Importante passado <span class="text-colored"> de Salvador</span></h3>
+                            <p class="txt-sobre">O imponente passado de Salvador, que foi a primeira capital do Brasil, ainda hoje está retratado em seus casarões antigos e que hoje servem de pousadas, hotéis e restaurantes para receber os milhares de turistas que vêem a Salvador o ano inteiro.
+                                Quem visita Salvador tem muitos motivos para permanecer na cidade e muitas vezes, retornam para relembrar os momentos únicos que presenciaram na capital dos baianos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="video" class="py-5">
+            <div class="container ">
+                <h2 class="text-center text-colored section-title mb-4">Nosso Vídeo</h2>
+                <div class="ratio ratio-16x9 w-75 w-md-50 mx-auto rounded-4">
+                    <!-- Classe do Bootstrap para vídeos responsivos -->
+                    <iframe 
+                        src="https://www.youtube.com/embed/ebuTjmA47rA?si=-Ky1h1oUeDDxHesK" 
+                        title="YouTube video" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen class="d-block">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossas <span class="text-colored">atrações</span>
+                    </h2>
+                </div>
+                <div id="atracao" class="row custom-border">
+                    <aside class="col-md-2 col-12">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Festas populares</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">Praias</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Carnaval</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Culinária</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10 col-12">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-5 col-lg-4 ">
+                                        <img src="images/cardapio/atracoes/carnaval.jpg" alt="carnaval na barra-salvador" class="d-block rounded img-uniform w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Carnaval de Salvador</h5>
+                                        <p>A Bahia é a terra da magia, da música e da alegria. A maior manifestação popular do planeta: o Carnaval de Salvador.</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4 ">
+                                        <img src="images/cardapio/atracoes/iemanjar.jpg" alt="celebracao iemanja" class="d-block rounded img-uniform w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Festa de Iemanjá</h5>
+                                        <p>Comemorado em 2 de fevereiro, desde a madrugada, adeptos do candomblé, turistas e devotos formam filas imensas para colocar oferendas e pedidos nos balaios</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4 ">
+                                        <img src="images/cardapio/atracoes/baiana.jpg" alt="festa das bahianas" class="d-block rounded img-uniform w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Dia da Baiana de Acarajé</h5>
+                                        <p> A história das baianas de acarajé se inicia ainda no período da escravidão, quando os negros chegaram à Bahia com seus costumes e religião.</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4 ">
+                                        <img src="images/cardapio/atracoes/santaluzia.jpg" alt="festa de santa luzia" class="d-block rounded img-uniform w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Festa de Santa Luzia</h5>
+                                        <p>A Festa de Santa Luzia é uma celebração católica que acontece anualmente no dia 13 de dezembro na cidade de Salvador.</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4 ">
+                                        <img src="images/cardapio/atracoes/lavagem-itapua.jpg" alt="lavagem-itapua" class="d-block rounded img-uniform w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Lavagem de Itapuã</h5>
+                                        <p>Na quinta antes do Carnaval, baianas lavam a escadaria da igreja de Nossa Senhora da Conceição de Itapuã com flores e água de cheiro.</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4 ">
+                                        <img src="images/cardapio/atracoes/bofim.jpg" alt="festa" class="d-block rounded img-uniform w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Festa do Senhor do Bonfim</h5>
+                                        <p>A Festa do Senhor do Bonfim é uma manifestação religiosa popular da Bahia que homenageia Jesus Crucificado</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/praia/Farol-de-itapuan.jpg" alt="Farol-de-itapuã" class="d-block rounded w-100 img-uniform">
+                                        <h5 class="text-colored fw-bold mt-2">Praia de Itapuã</h5>
+                                        <p>A Praia de Itapuã inspirou até na música, famosa composição de Vinícius de Moraes e Dorival Caymmi “Uma tarde em Itapuã”. </p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/praia/pieta.jpg" alt="Praia de Piatã" class="d-block rounded w-100 img-uniform">
+                                        <h5 class="text-colored fw-bold mt-2">Praia de Piatã</h5>
+                                        <p>Esta é uma praia de mar aberto, suas areias são amareladas e com muitos coqueiros, vira point aos finais de semana.</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/praia/praia-do-porto-da-barra.jpg" alt="Praia porto da barra" class="d-block rounded w-100 img-uniform">
+                                        <h5 class="text-colored fw-bold mt-2">Praia Porto da Barra</h5>
+                                        <p>É uma praia pequena , mas muito bonita. Rodeada por arrecifes onde  proporcionam águas calmas e transparentes com piscinas naturais.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/praia/praia-sao-tome-de-paripe.jpg" alt="praia sao tome" class="d-block rounded w-100 img-uniform">
+                                        <h5 class="text-colored fw-bold mt-2">Praia São Tomé de Paripe</h5>
+                                        <p>Esta praia de águas bem calmas, está situada bem ao extremo sul do litoral de Salvador.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/praia/praia-de-jaguaribe.jpg" alt="Praia de jaguaribe" class="d-block rounded w-100 img-uniform">
+                                        <h5 class="text-colored fw-bold mt-2">Praia de Jaguaribe</h5>
+                                        <p>A Praia de Jaguaribe é uma praia bem movimentada e freqüentada por moradores e turistas, está cotada como uma das 3 mais frequentadas
+                                        </p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/praia/ondina.jpg" alt="Praia Ondina" class="d-block rounded w-100 img-uniform">
+                                        <h5 class="text-colored fw-bold mt-2">Praia de Ondina</h5>
+                                        <p>Esta localizada no bairro mais nobre de Salvador, em “Ondina”. É ótima para banho e ainda se formam algumas piscinas naturais.
+                                        </p>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/carnaval/circuitobatatinha.jpg" alt="Circuito Batatinha" class="d-block rounded w-100 img-uniform">
+                                        <h5 class="text-colored fw-bold mt-2">Circuito Batatinha</h5>
+                                        <p>Acontece no Pelourinho, no centro histórico de Salvador, com bailes de máscaras, bandas de fanfarras e afoxés.</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/carnaval/circuitododo.jpg" alt="Circuito Dodô" class="d-block rounded w-100 img-uniform">
+                                        <h5 class="text-colored fw-bold mt-2">Circuito Dodô</h5>
+                                        <p>O famoso circuito Barra/Ondina, que acontece à beira da praia, com cerca de 4 km de extensão.</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/carnaval/circuitoosmar.jpg" alt="Circuito Osmar" class="d-block rounded w-100 img-uniform">
+                                        <h5 class="text-colored fw-bold mt-2">Circuito Osmar</h5>
+                                        <p>Um dos três circuitos mais tradicionais, que costuma dar a volta no centro antigo.</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/carnaval/furdunco.jpg" alt="Circuito Orlando Tapajós" class="d-block rounded w-100 img-uniform">
+                                        <h5 class="text-colored fw-bold mt-2">Circuito Orlando Tapajós</h5>
+                                        <p>Começa no Clube Espanhol, em Ondina, e termina no Farol da Barra.</p>
+                                    </div>
+                                   
+                                   
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/culinaria/acaraje.jpg" alt="Acarajé" class="d-block rounded img-uniform w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Acarajé</h5>
+                                        <p>Ir para Salvador e não provar um de seus famosos e tradicionais acarajés é quase a mesma coisa do que não ter ido.</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/culinaria/vatapa-2.jpg" alt="vatapá" class="d-block rounded img-uniform w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Vatapá</h5>
+                                        <p>O Vatapá é um prato típico da culinária nordestina e nortista, e tem presença garantida nos cardápios dos pratos típicos de da Bahia</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/culinaria/moqueca1.jpg" alt="Moqueca Baiana" class="d-block rounded img-uniform w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Moqueca Baiana</h5>
+                                        <p>De maneira geral, a moqueca é um prato servido em todo o Brasil. Mas, na Bahia, ela exige algumas regras no preparo que a tornam especial.</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/culinaria/sopa de camarão.jpg" alt="Bobo de camarão" class="d-block rounded img-uniform w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Bobó de Camarão</h5>
+                                        <p>O bobó de camarão é uma verdadeira relíquia da culinária baiana. Com camarões cremosos refogados no leite de coco</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/culinaria/xinxim.jpg" alt="Xinxim de galinha" class="d-block rounded img-uniform w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Xinxim de galinha</h5>
+                                        <p>Somente na Bahia você vai encontrar uma receita que consiga casar tão perfeitamente o frango com o camarão</p>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4">
+                                        <img src="images/cardapio/culinaria/cravinho.jpg" alt="Cachaça de Cravinho" class="d-block rounded img-uniform w-100">
+                                        <h5 class="text-colored fw-bold mt-2">Cachaça de Cravinho</h5>
+                                        <p>A cachaça de cravinho é mais uma dessas descobertas surpreendentes que vai fazer você lembrar de sua viagem para a Bahia por muito tempo</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form id="form-contato">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" name="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" name="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                <input type="tel" name="telefone" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea id="mensagens" name="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" id="enviar" class="btn fw-bold" >Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-link">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço:
+                            </h3>
+                            <p>
+                                Rua: Teste exemplo n°145, Bootstrap - Salvador - BA
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-12  ">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124451.0538249444!2d-38.50259177719296!3d-12.901584769520516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716112050422ebd%3A0xf71c84369573db9d!2sSalvador%2C%20BA!5e0!3m2!1spt-BR!2sbr!4v1731016078941!5m2!1spt-BR!2sbr" 
+                                width="100%" 
+                                height="190" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+   </div>
+    
+    <script src="./lib/jquery-3.6.0.min.js"></script>
+    <script src="./lib/jquery.mask.min.js"></script>
+    <script src="lib/jquery.validate.min.js"></script>
+    <script src="lib/sweetalert2@11.js"></script>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
